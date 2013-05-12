@@ -13,3 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 
+jQuery(document).ready(function() {
+    $('.status').hover(function  () {
+        $(this).toggleClass("hover")
+    });
+});
